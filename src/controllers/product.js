@@ -13,7 +13,7 @@ function getProduct(req, res) {
   })
 }
 
-
+//obtener todos los productos
 function getProducts(req,res) {
 
     Product.find({}, (err, products) => {
